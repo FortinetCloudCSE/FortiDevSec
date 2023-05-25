@@ -1,38 +1,26 @@
 ---
-title: "Task 1 - Clone sample repo"
-menuTitle: "a: Clone"
+title: "Task 1 - Create Github Token"
+menuTitle: "a: Token"
 weight: 1
 ---
 
-# MVP1 - in progress 
+This procedure will take you through the process of creating a Github Token.  This token will authenticate you to github.com.  This is required in order to push or pull information from a tools server to github.com.
 
-## Task 1 - Create Repo
+1. **From your github.com home page, click the drop down next to your profile picture on the top right of the screen and select Settings**
+    ![token1](../img/gh-settings.png)
 
-1. Use the Jenkins Script with GH credentials to create a new repo in the FortinetCloudCSE GitHub account
-- For now this is limited to Jeff & Rob
-```shell
-  ./setup-gh-jenkins <Your Jenkins user id> <Name of Repo Template> <Name of New Repo to be created> <Github username of user to be added as collaborator> [-p]
-```
+1. **On the left side of the settings screen, scroll all the way to the bottom of the list of options and select "<>Developer settings" from the menu.**
+    ![token2](../img/gh-dev-settings.png)
 
-This script will:
-1. Create a new repo in FortinetCloudCSE from the Parent Template DemoFrontEndDocker
-2. Add specified GitHub collaborators to the newly created Repo
-3. Create a Jenkins job for the repo and  run initial build.  This job can/will do things like
-   1. linting
-   2. Directory governance
-   3. FortiDevSec scans
+1. **Again on the left side of the screen click the drop down next to "Personal access tokens" and select "Tokens (classic)"**
+    ![token3](../img/tokens.png)
 
----
+1. **Click the "Generate new token box.  This will give two options.  Chose "Generate new token (classic).  You will be asked to input your password.  Do so.**
+    ![token4](../img/gen-new-token.png)
 
-# MVP0 (LEGACY STEPS only do this if MVP1 steps don't work) 
+1. **On the following screen, add a useful note and then enable "repo", "workflow", "write:packages" and "delete:packages" by clicking on the main arrow on the top left  the box of the options and select "Generate token" at the bottom of the list.**
+    ![token5](../img/generate-token.png)
 
-### Task 1 - Clone this sample repo
-
-__** Prerequisite **__ - Ensure Git is installted on your system
-
-## Step 1 Clone this [git repo](https://github.com/FortinetCloudCSE/DemoFrontEndDocker.git) 
-
-```shell
-git clone https://github.com/FortinetCloudCSE/DemoFrontEndDocker.git --recurse-submodules
-```
+1. **On the next screen you are presented with a token.  This is the only time you will be able to copy it.  Please do so and save it in a safe place where you can access it easily.**
+    ![token6](../img/save-token.png)
 

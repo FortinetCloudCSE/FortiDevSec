@@ -1,42 +1,21 @@
 ---
-title: "Task 2 - Install Hugo"
-menuTitle: "b: Install"
+title: "Task 2 - Fork the Repo"
+menuTitle: "b: Fork"
 chapter: false
 weight: 2
 ---
 
-### Task 2 - Install Hugo 
+In this task, you will fork an application repository from my github.com account into your own.
 
-If you're using a Mac, run the following brew install from your terminal
-
-```sh
-brew install hugo 
-```
-
-If you're using Windows, install chocolatey for windows ([follow directions here](https://chocolatey.org/install)).  Once installed run the following
+1. **In your favorite browser, paste the below link into the URL bar.**
 
 ```sh
-choco install hugo -confirm
+https://github.com/fortidg/FortiDevSecJuice.git
+
 ```
 
-#### Run Hugo locally to see a local version of the rendered website
+1. **At the top of the window, click on Fork.**
+    ![fork1](../img/forkjuice.png)
 
-From within the root of the repo you copied onto your system
-
-```sh
-hugo server
-```
-
-* Click on the URL presented after the above command finishes to view a local version of your first Hugo formatted website
-
-
-
-    ![hugoServer](hugoServer.jpg)
-
-
-
-{{% notice warning %}}
-<p style='text-align: left;'>
-The examples and sample code provided in this workshop are intended to be consumed as instructional content. These will help you understand how various Fortinet and Azure services can be architected to build a solution while demonstrating best practices along the way. These examples are not intended for use in production environments without full understanding of how they operate.
-</p>
-{{% /notice %}}
+1. **On the following page, select "Create fork"**
+    ![fork2](../img/createfork.png)

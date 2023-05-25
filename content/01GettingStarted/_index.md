@@ -1,13 +1,9 @@
 ---
-title: "Ch 1 Getting Started with Hugo"
-menuTitle: "Ch 1: Hugo"
+title: "Get (git) Ready"
+menuTitle: "Get (git) Ready"
 weight: 10
 ---
 
-## Chapter 1 - Setting up your Hugo environment (15 min)
+## LAB 1 - Get (git) Ready
+This lab will take you through the process of creating a User Token for Github and then a few other administrative tasks to prepare the environment.  More advanced users, already familiar with Github, can just use the link from Task 2 below to fork the repository and then move on to LAB 2.
 
-### What is Hugo and how easy can this be?
-
-Generally, this section follows the [example set forth here](https://aws-samples.github.io/aws-modernization-workshop-sample/20_build/1_setup/)
-
-Click the right arrow to go through each step individually
