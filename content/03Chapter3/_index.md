@@ -1,12 +1,9 @@
 ---
-title: "Ch 3 - Hugo Publish via GitHub Actions (CI/CD)"
+title: "Ch 3 - Break stuff (and fix it)"
 chapter: false
-menuTitle: "Ch 3: Publish"
+menuTitle: "Break stuff (and fix it)"
 weight: 30
 ---
 
-### ***Publish your content to GitHub pages via a GitHub action***
+Now that we have successfully onboarded our application into FortiDevSec, we will go take a look at the findings from the first scan as well as add a few bits of code to cause new errors.
 
-Now that you have your content first draft, push your repo to github, and setup an action to automatically build your Hugo content anytime you upload to the repo
-
-Click the right arrow to go through each step individually

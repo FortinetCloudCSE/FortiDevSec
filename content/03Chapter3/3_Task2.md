@@ -1,17 +1,35 @@
 ---
-title: "Task 2 - Push content to your repo"
-menuTitle: "b: Git push"
+title: "Task 2 - Introduce a new vulnerability"
+menuTitle: "b: New Vulnerability"
 chapter: false
 weight: 2
 ---
 
-### Task 2 - Push your content to GitHubo repo
+As we saw during the initial scan, the presence of the "con_sql.js" file instigated a NodeJS scan.  Initially, that did not return any errors.  Let's modify that file to add a vulnerability.
 
-1. In a terminal window, Browse to the root within this repo
+1. **Using nano add the below ling to the con_sql.js file.**
+
 ```sh
-   git push  
-```  
 
-{{%notice note%}}  You may need to first issue a **git fetch** or other actions to get your content properly uploaded to GitHub. {{% /notice %}}
+var password = "123Password123"
+
+```
+
+1. **Push the change to our Github repository.**
+
+```sh
+
+git status
+git add con_sql.js
+git commit -m 'added password to con_sql.js to trigger vulnerability'
+git push
+
+```
+1. **After the push and subsequent scan is complete, you should notice a new vulnerability for NodeJS.
+
+![scan6](../img/passwordjs.png)
+
+
+**Congratulations!  You have finished Lab 3.  You are now ready to proceed to Lab 4.**
 
 
