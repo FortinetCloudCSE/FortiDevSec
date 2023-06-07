@@ -166,21 +166,21 @@ url = "https://github.com/FortinetCloudCSE"
 weight = 1
 
 [[menu.shortcuts]]
-name = "<i class='fas fa-tools'></i>Fortinet Standard Workshop Guide"
-url = "https://fortinetcloudcse.github.io/DemoFrontEndDocker/"
+name = "<i class='fas fa-tools'></i>Github git tutorial"
+url = "https://github.com/git/git/blob/master/Documentation/gittutorial.txt"
 weight = 11
 
 [[menu.shortcuts]]
-name = "<i class='fas fa-tools'></i>Fortinet Standard Workshop Template Repo"
-url = "https://github.com/FortinetCloudCSE/DemoFrontEndDocker"
+name = "<i class='fas fa-tools'></i>FortiDevSec User Guide"
+url = "https://docs.fortinet.com/document/fortidevsec/23.2.a/user-guide/546812/introduction"
 weight = 21
 
 [[menu.shortcuts]]
-name = "<i class='fas fa-tools'></i> Hugo reLearn theme - Guide"
-url = "https://mcshelby.github.io/hugo-theme-relearn/index.html"
+name = "<i class='fas fa-tools'></i> FortiDast User Guide"
+url = "https://docs.fortinet.com/document/fortidast/23.2.0/user-guide/546812/introduction"
 weight = 35
 
 [[menu.shortcuts]]
-name = "<i class='fas fa-graduation-cap'></i> AWS Sample Workshop"
-url = "https://aws-samples.github.io/aws-modernization-workshop-sample/"
+name = "<i class='fas fa-graduation-cap'></i> GCP Cloud Shell Documentation"
+url = "https://cloud.google.com/shell/docs"
 weight = 50
