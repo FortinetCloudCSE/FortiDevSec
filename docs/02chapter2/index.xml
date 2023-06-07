@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Onboard Application on Hugo web framework for Fortinet Demos</title>
+    <link>https://fortinetcloudcse.github.io/UserRepo/02chapter2.html</link>
+    <description>Recent content in Onboard Application on Hugo web framework for Fortinet Demos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language><atom:link href="https://fortinetcloudcse.github.io/UserRepo/02chapter2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Task 1 - Log into FortiDevSec and add your application</title>
+      <link>https://fortinetcloudcse.github.io/UserRepo/02chapter2/2_task1.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://fortinetcloudcse.github.io/UserRepo/02chapter2/2_task1.html</guid>
+      <description>Navigate to &amp;ldquo;https://fortidevsec.forticloud.com/&#34; and Login using your support.fortinet.com credentials. Make sure that &amp;ldquo;IAM Login&amp;rdquo; is selected and input the account ID (from the original invitation email) as well as your username and password. From the Summary page click on &amp;ldquo;+ New Application&amp;rdquo; Input a the name of the application as &amp;ldquo;Student&amp;rdquo; for step 1. The name of the application is arbitrary, but this is a shared environment, and we need to make sure we are all working on our own application.</description>
+    </item>
+  </channel>
+</rss>

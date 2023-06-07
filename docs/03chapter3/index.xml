@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ch 3 - Break stuff (and fix it) on Hugo web framework for Fortinet Demos</title>
+    <link>https://fortinetcloudcse.github.io/UserRepo/03chapter3.html</link>
+    <description>Recent content in Ch 3 - Break stuff (and fix it) on Hugo web framework for Fortinet Demos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language><atom:link href="https://fortinetcloudcse.github.io/UserRepo/03chapter3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Task 1 - Look at Vulnerabilities from the first scan </title>
+      <link>https://fortinetcloudcse.github.io/UserRepo/03chapter3/2_task1.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://fortinetcloudcse.github.io/UserRepo/03chapter3/2_task1.html</guid>
+      <description>By clicking on the &amp;ldquo;Vulnerabilities&amp;rdquo; link in the IaC box, you can drill in to the issues found. Note the filters on the left side of the screen and the sort functionality on the right.
+Let&amp;rsquo;s dig into the vulnerability labeled as &amp;ldquo;Firewall rule allows ingress traffic from multiple addresses on the public internet&amp;rdquo; by clicking on it. This will cause a pop up with more detail to appear on the right side of the screen.</description>
+    </item>
+    <item>
+      <title>Task 2 - Introduce a new vulnerability</title>
+      <link>https://fortinetcloudcse.github.io/UserRepo/03chapter3/3_task2.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://fortinetcloudcse.github.io/UserRepo/03chapter3/3_task2.html</guid>
+      <description>As we saw during the initial scan, the presence of the &amp;ldquo;con_sql.js&amp;rdquo; file instigated a NodeJS scan. Initially, that did not return any errors. Let&amp;rsquo;s modify that file to add a vulnerability.
+Using nano add the below ling to the con_sql.js file. var password = &amp;#34;123Password123&amp;#34; Push the change to our Github repository. git status git add con_sql.js git commit -m &amp;#39;added password to con_sql.js to trigger vulnerability&amp;#39; git push **After the push and subsequent scan is complete, you should notice a new vulnerability for NodeJS.</description>
+    </item>
+  </channel>
+</rss>
